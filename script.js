@@ -1,3 +1,5 @@
+// Date and time
+
 var date = new Date(); 
 var hour = date.getHours();
 var minutes = (date.getMinutes()<10?'0':'') + date.getMinutes();
@@ -19,6 +21,7 @@ var imageAfternoon = "url('images/afternoon.jpg')";
 var imageEvening = "url('images/evening.jpg')";
 var imageNight = "url('images/night.jpg')";
 
+// Defining hours (Morning, afternoon, evening, night)
 
 if (hour > 4 && hour < 13){
 	h1.textContent = "Good Morning, " + username + "!";
